@@ -22,7 +22,7 @@ const Addcolor = () => {
         />
         <button
         onClick={()=>setcolorList([...ColorList,color])}
-        >Addcolor
+        >Addcolors
         </button> 
      
     </div>
