@@ -1,0 +1,72 @@
+.movie-summary{
+  margin-top: 0;
+}
+
+body{
+  font-family: roboto;
+}
+.movie-specs{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: aqua; */
+}
+.movie-container{
+  width: 340px;
+  height: min-content;
+}
+.movie-poster{
+  width: 340px;
+  height: 500px;
+  object-fit: cover;
+}
+.movie-rating{
+  font-size: 15px;
+}
+.movie-list{
+  display:flex ;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.btn-like,
+.btn-dislike
+{
+
+  font-size: 1.2rem;
+}
+.btn-like{
+  margin-right: 1.2rem;
+
+}
+.Movie-detail-container{
+  max-width: 800px;
+
+}
+.add-movie-form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.router-container{
+  padding :24px 12px;
+}
+.form-login{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 200px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 500px;
+}
+.user-form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 500px
+}
